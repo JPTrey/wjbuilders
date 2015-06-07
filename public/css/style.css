@@ -1,0 +1,136 @@
+body {
+	margin-top: 60px;
+    background-color: #111111;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	color: #999;
+}
+
+a {
+	color: #999;
+	text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #ddd;
+}
+
+input, p#contact-form {
+	color: #999;
+	margin-left: 5%;
+}
+
+ol {
+  margin-top: 10%;
+}
+
+ol#breadcrumb-nomargin {
+  margin-top: 5%;
+}
+
+blockquote {
+  border-left: 5px solid #999;
+}
+
+.panel {
+  background-color: #CCCCCC;
+}
+
+.panel-body, .panel-body > p {
+  color: #191919;
+}
+
+.input-group > p, .input-group > h4 {
+  color: black;
+}
+
+.img-thumbnail {
+  background-color: #999;
+}
+
+#brand-lg {
+  font-family: Copperplate;
+  font-size: 50px;
+  padding-top: 35px;
+}
+
+#brand-sm {
+  font-family: Copperplate;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+/*	border-top: 1px solid #ddd;*/
+	color: #999;
+	text-align: center;
+}
+
+footer.well {
+  color: #999;
+  background-color: #292929;
+}
+
+img.preview {
+  width: 640px;
+  height: 200px;
+}
+
+#profile-caption {
+  padding-top: 30%;
+  font-size: 8em;
+  color: #BDBEBF;
+   text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+/* jCarousel */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}

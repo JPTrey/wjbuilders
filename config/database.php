@@ -54,10 +54,10 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'		=> '127.0.0.1',
+			'host'		=> getenv('db_host'),
 		    'database'  => 'wjb',
-		    'username'  => 'root',
-		    'password'  => '',
+		    'username'  => getenv('db_user'),
+		    'password'  => getenv('db_pass'),
 		    'charset'   => 'utf8',
 		    'collation' => 'utf8_unicode_ci',
 		    'prefix'    => '',

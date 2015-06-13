@@ -108,7 +108,8 @@ $dev_houses[]:
 </div>
 <!-- END Renovations-->
 
-	<h1 class="parallax-text">Developments</h1>
+@if (sizeof($dev_houses > 0))
+<h1 class="parallax-text">Developments</h1>
 @if (isset($banners))
 <!-- Developments -->
 <div class="banner" style="background: url('{{$banners['dev']}}')">
@@ -123,5 +124,6 @@ $dev_houses[]:
 		</div>
 	@endforeach
 </div>
+@endif
 <!-- END Developments-->
 @stop

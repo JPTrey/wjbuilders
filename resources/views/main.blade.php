@@ -28,7 +28,8 @@
     @yield('pre-scripts')
 
 </head>
-<body oncontextmenu="return false">
+<!--<body oncontextmenu="return false">-->
+<body>
     <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">

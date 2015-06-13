@@ -5,7 +5,7 @@
 </div>
 	<div 
 		style="
-			background: transparent url('{{url('/img/wj_profile.jpg')}}');
+			background: transparent url('{{url('/img/wj_profile.JPG')}}');
 		    background-repeat: no-repeat;
 		    background-attachment: fixed;
 		    background-position: left center;

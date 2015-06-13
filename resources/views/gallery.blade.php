@@ -43,16 +43,16 @@ $dev_houses[]:
 		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/sgro-alt.jpg')}}"/>
 	</div>
 	<div class="col-xs-6">
-		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/sgro.jpg')}}"/>
+		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/sgro.JPG')}}"/>
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-xs-6">
-		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/renovation2-alt.jpg')}}"/>
+		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/renovation2-alt.JPG')}}"/>
 	</div>
 	<div class="col-xs-6">
-		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/renovation2.jpg')}}"/>
+		<img class="img-responsive thumbnail preview" style="height: 400px" src="{{url('/img/thumbnails/renovation2.JPG')}}"/>
 	</div>
 </div>
 

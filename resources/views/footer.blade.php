@@ -1,5 +1,5 @@
 <footer>
-	<div class="well">
+	<div class="well" style="background-color: #AEAEAE; color: #FFF;">
 		<p class="text-center">
 			<em>Woody Jones Builders</em> is developed and maintained by <a href="http://jonpaul.azurewebsites.net">Jon Paul</a>.  
 			<br>

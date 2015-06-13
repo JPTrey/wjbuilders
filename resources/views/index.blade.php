@@ -32,7 +32,7 @@
 	<div id="gallery-banner">
 		<div id="main-banner"
 		style="
-			background: transparent url('{{url('/img/2.jpg')}}');
+			background: transparent url('{{url('/img/2.JPG')}}');
 		    background-repeat: no-repeat;
 		    background-attachment: fixed;
 		    background-position: left center;

@@ -2,6 +2,8 @@
 @section('title')Woody Jones Builders @stop
 
 @section('body')
+</div> <!-- close container -->
+<div class="container-fluid">
 
 <div class="row">
 	<div id="main-banner"
